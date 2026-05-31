@@ -1,98 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Cleomar da Silva — Desenvolvedor Fullstack em formação no DevClub. Projetos, habilidades e contato.">
+    <meta name="description" content="Portfólio Profissional de Cleomar da Silva — Desenvolvedor Fullstack.">
     <meta name="theme-color" content="#1cadd5">
     <title>Cleomar da Silva — Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body>
-    <header class="site-header">
-        <div class="container">
-            <a class="brand" href="#">Cleomar da Silva</a>
-            <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menu">☰</button>
-            <nav class="site-nav" aria-label="Navegação principal">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <main>
+<body>
+    <nav class="top-nav">
+        <div class="header-inner">
+            <a class="brand" href="#">Cleomar<span>.dev</span></a>
+            <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Trabalhos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- HERO -->
         <section id="home" class="hero">
-            <div class="container hero-inner">
-                <div class="hero-content">
-                    <h1>Olá, eu sou <span>Cleomar</span></h1>
-                    <p>Desenvolvedor web em formação — foco em Fullstack. Transformo ideias em projetos reais com HTML, CSS, JavaScript e ferramentas modernas.</p>
-                    <div class="hero-ctas">
-                        <a class="btn primary" href="#projetos">Ver projetos</a>
-                        <a class="btn outline" href="mailto:nexuscleo@gmail.com">Contatar</a>
-                    </div>
-                </div>
-                <div class="hero-media">
-                    <img class="perfil" src="img/foto-perfil.jpg" alt="Foto de Cleomar da Silva">
-                </div>
+            <div class="avatar-wrapper">
+                <img class="perfil" src="img/foto-perfil.jpg" alt="Cleomar da Silva">
+            </div>
+            <h1>Olá, eu sou o <span>Cleomar</span></h1>
+            <p>Desenvolvedor web focado em criar soluções robustas e interfaces intuitivas. Atualmente me especializando
+                em tecnologias Fullstack.</p>
+            <div class="hero-ctas">
+                <a class="btn primary" href="#projetos">Explorar Projetos</a>
+                <a class="btn outline" href="mailto:nexuscleo@gmail.com">Enviar E-mail</a>
             </div>
         </section>
 
-        <section id="sobre" class="sobre container">
-            <h2>Sobre mim</h2>
-            <p>Sou aluno do DevClub com experiência em liderança e treinamento técnico. Tenho conhecimentos em Python, C#, Unity, SolidWorks e estou me especializando em desenvolvimento web. Busco projetos práticos e oportunidades de crescimento profissional.</p>
+        <!-- SOBRE MIM -->
+        <section id="sobre" class="sobre">
+            <div class="section-header">
+                <h2>Sobre mim</h2>
+            </div>
+            <p>Com um background em liderança técnica e ferramentas de engenharia como SolidWorks, migrei para o
+                desenvolvimento web buscando o dinamismo do código. Aluno do DevClub, foco em construir aplicações que
+                resolvam problemas reais.</p>
             <ul class="skills">
-                <li>HTML & CSS</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
                 <li>JavaScript</li>
+                <li>React</li>
+                <li>Node</li>
                 <li>Python</li>
-                <li>UI/UX básico</li>
             </ul>
         </section>
 
-        <section id="projetos" class="projetos container">
-            <h2>Projetos</h2>
-            <div class="grid">
-                <!-- Projetos serão carregados dinamicamente via JavaScript -->
+        <!-- GALERIA DE PROJETOS -->
+        <section id="projetos" class="projetos">
+            <div class="section-header">
+                <h2>Projetos em Destaque</h2>
+            </div>
+            <div class="grid" id="projects-grid">
+                <!-- Dinâmico via JS -->
             </div>
         </section>
 
-        <section id="contato" class="contato container">
-            <h2>Contato</h2>
-            <p>Fique à vontade para me enviar uma mensagem — respondo o mais breve possível.</p>
-            <form id="contact-form" class="contact-form" novalidate>
-                <div class="form-row">
-                    <label for="name">Nome</label>
-                    <input id="name" name="name" type="text" required>
-                </div>
-                <div class="form-row">
-                    <label for="email">E-mail</label>
-                    <input id="email" name="email" type="email" required>
-                </div>
-                <div class="form-row">
-                    <label for="message">Mensagem</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <div class="form-actions">
-                    <button class="btn primary" type="submit">Enviar mensagem</button>
-                </div>
-                <p id="form-status" class="form-status" aria-live="polite"></p>
-            </form>
+        <!-- CONTATO -->
+        <section id="contato" class="contato">
+            <div class="section-header">
+                <h2>Contato</h2>
+            </div>
+            <div class="contact-grid">
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-row">
+                        <label for="name">Nome</label>
+                        <input id="name" name="name" type="text" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">E-mail</label>
+                        <input id="email" name="email" type="email" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Como posso ajudar?"
+                            required></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button class="btn primary" type="submit">Enviar mensagem</button>
+                    </div>
+                    <p id="form-status" class="form-status" aria-live="polite"></p>
+                </form>
 
-            <div class="contact-links">
-                <a href="https://www.linkedin.com/in/cleomar-silva-173069246/" target="_blank" rel="noopener noreferrer" class="btn outline">LinkedIn</a>
-                <a href="tel:+5554991887441" class="btn outline">Telefone</a>
+                <div class="contact-links">
+                    <p>Ou pelas redes:</p>
+                    <div class="social-btns">
+                        <a href="https://www.linkedin.com/in/cleomar-silva-173069246/" target="_blank"
+                            rel="noopener noreferrer" class="btn outline">LinkedIn</a>
+                        <a href="tel:+555496272394" class="btn outline">Telefone</a>
+                        <a href="mailto:nexuscleo@gmail.com" class="btn outline">E-mail</a>
+                        <a href="https://github.com/nexuscleo" target="_blank" rel="noopener noreferrer" class="btn outline">GitHub</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
+    <!-- RODAPÉ -->
     <footer class="site-footer">
-        <div class="container">
-            <p>&copy; <span id="year"></span> NexusCleo.</p>
-        </div>
+        <p>&copy; <span id="year"></span> Cleomar da Silva • Desenvolvedor Fullstack</p>
     </footer>
 </body>
+
 </html>
