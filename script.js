@@ -1,24 +1,24 @@
 const projectsData = [
 	{
-		title: "Sistema de Gerenciamento de Tarefas",
-		description: "Aplicação web completa para gerenciamento de tarefas e projetos com interface intuitiva, suporte a categorias, prioridades e filtros avançados.",
-		image: "img/tasks.png",
-		technologies: ["JavaScript", "React", "Node.js", "MongoDB", "CSS"],
-		link: "#"
+		title: "Gerador de tabuadas",
+		description: "Uma ferramenta online rápida e fácil de usar para calcular tabuadas instantaneamente, contando com um design moderno e responsivo.",
+		image: "img/proj-tabuada.png",
+		technologies: ["JavaScript", "Node.js", "HTML", "CSS"],
+		link: "https://nexuscleo.github.io/gerador-tabuada/"
 	},
 	{
-		title: "E-commerce Responsivo",
-		description: "Plataforma de e-commerce moderna com carrinho de compras, sistema de pagamento integrado, painel administrativo e design totalmente responsivo.",
-		image: "img/ecommerce.png",
-		technologies: ["JavaScript", "Vue.js", "Express", "PostgreSQL", "Stripe"],
-		link: "#"
+		title: "Calculadora de sextavado para usinagem CNC",
+		description: "Ferramenta especializada para cálculo de sextavado em processos de usinagem CNC, com interface intuitiva e resultados precisos.",
+		image: "img/proj-calc-sextavado.png",
+		technologies: ["JavaScript", "Node.js", "HTML", "CSS"],
+		link: "https://nexuscleo.github.io/seno-sextavado/"
 	},
 	{
-		title: "Dashboard de Análise de Dados",
-		description: "Dashboard interativo para visualização e análise de dados em tempo real com gráficos dinâmicos, filtros personalizáveis e exportação de relatórios.",
-		image: "img/dashboard.png",
-		technologies: ["JavaScript", "D3.js", "Python", "Flask", "Chart.js"],
-		link: "#"
+		title: "Lista de tarefas",
+		description: "Adicionar itens em uma lista, como tarefas a serem realizadas por uma pessoa durante sua rotina diária.",
+		image: "img/proj-tarefas.png",
+		technologies: ["JavaScript", "Node.js", "HTML", "CSS"],
+		link: "https://nexuscleo.github.io/todo-list/"
 	}
 ];
 
