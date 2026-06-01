@@ -19,6 +19,13 @@ const projectsData = [
 		image: "img/proj-tarefas.png",
 		technologies: ["JavaScript", "Node.js", "HTML", "CSS"],
 		link: "https://nexuscleo.github.io/todo-list/"
+	},
+	{
+		title: "Convite de aniversário digital",
+		description: "Landing page de convite de aniversário digital, com design moderno e responsivo, ideal para compartilhar detalhes do evento de forma elegante.",
+		image: "img/proj-convite.png",
+		technologies: ["JavaScript", "Node.js", "HTML", "CSS"],
+		link: "https://convite-alyce.netlify.app/"
 	}
 ];
 
