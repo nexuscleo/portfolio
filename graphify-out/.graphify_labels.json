@@ -1,1 +1,1 @@
-{"0": "Projects.tsx", "1": "compilerOptions", "2": "Contact.tsx", "3": "devDependencies", "4": "App.tsx", "5": "dependencies", "6": "compilerOptions", "7": "package.json", "8": "postcss.config.js", "9": "tailwind.config.js", "10": "vite.config.ts"}
+{"0": "devDependencies", "1": "compilerOptions", "2": "App.tsx", "3": "Projects.tsx", "4": "dependencies", "5": "package.json", "6": "Contact.tsx", "7": "compilerOptions", "8": "SectionHeader.tsx", "9": "postcss.config.js", "10": "vite-env.d.ts", "11": "tailwind.config.js", "12": "vite.config.ts"}
