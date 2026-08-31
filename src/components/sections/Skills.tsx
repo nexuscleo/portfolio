@@ -27,7 +27,7 @@ export const Skills: React.FC = () => {
     : skillCategories.filter(c => c.category === selectedCategory);
 
   return (
-    <section id="habilidades" className="py-20 relative">
+    <section id="habilidades" className="py-16 sm:py-20 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           badge="Stack Tecnológica"
@@ -36,15 +36,15 @@ export const Skills: React.FC = () => {
           description="Um conjunto diversificado de tecnologias web, linguagens de programação e softwares de engenharia."
         />
 
-        {/* Abas de Filtro de Categoria */}
-        <div className="flex flex-wrap items-center justify-center gap-2 mb-12">
+        {/* Abas de Filtro com Scroll Horizontal Fluido no Mobile */}
+        <div className="flex items-center gap-2 mb-8 sm:mb-12 overflow-x-auto no-scrollbar scroll-smooth snap-x pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:justify-center">
           {tabs.map((tab) => {
             const isActive = selectedCategory === tab.id;
             return (
               <button
                 key={tab.id}
                 onClick={() => setSelectedCategory(tab.id)}
-                className={`px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 cursor-pointer ${
+                className={`px-3.5 sm:px-4 py-2 text-xs sm:text-sm font-semibold rounded-xl transition-all duration-200 cursor-pointer shrink-0 snap-start ${
                   isActive
                     ? 'bg-primary text-slate-950 shadow-lg shadow-primary/20 scale-105'
                     : 'bg-surface-100/70 hover:bg-surface-100 text-slate-300 border border-white/10 hover:border-white/20'
@@ -57,7 +57,7 @@ export const Skills: React.FC = () => {
         </div>
 
         {/* Grid de Categorias e Skills */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
           <AnimatePresence mode="popLayout">
             {filteredCategories.map((cat) => (
               <motion.div
@@ -67,34 +67,34 @@ export const Skills: React.FC = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.3 }}
-                className="bg-surface-100/70 border border-white/10 hover:border-primary/30 rounded-3xl p-6 sm:p-8 backdrop-blur-md transition-all duration-300"
+                className="bg-surface-100/70 border border-white/10 hover:border-primary/30 rounded-2xl sm:rounded-3xl p-5 sm:p-8 backdrop-blur-md transition-all duration-300"
               >
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2.5 rounded-xl bg-primary/10 border border-primary/20 text-primary">
+                  <div className="p-2 sm:p-2.5 rounded-xl bg-primary/10 border border-primary/20 text-primary shrink-0">
                     {categoryIcons[cat.category] || <Sparkles className="w-4 h-4" />}
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-white">
+                    <h3 className="text-lg sm:text-xl font-bold text-white">
                       {cat.title}
                     </h3>
-                    <p className="text-xs text-slate-400 mt-0.5">
+                    <p className="text-xs text-slate-400 mt-0.5 leading-snug">
                       {cat.description}
                     </p>
                   </div>
                 </div>
 
-                <div className="mt-6 flex flex-wrap gap-2.5">
+                <div className="mt-4 sm:mt-6 flex flex-wrap gap-2 sm:gap-2.5">
                   {cat.skills.map((skill) => (
                     <div
                       key={skill.name}
-                      className="group/skill flex items-center gap-2 bg-surface-200/90 hover:bg-surface-200 border border-white/10 hover:border-primary/40 px-3.5 py-2 rounded-xl transition-all duration-200"
+                      className="group/skill flex items-center gap-1.5 sm:gap-2 bg-surface-200/90 hover:bg-surface-200 border border-white/10 hover:border-primary/40 px-3 py-1.5 sm:px-3.5 sm:py-2 rounded-xl transition-all duration-200"
                     >
-                      <Check className="w-3.5 h-3.5 text-primary group-hover/skill:scale-110 transition-transform" />
+                      <Check className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-primary group-hover/skill:scale-110 transition-transform shrink-0" />
                       <span className="text-xs sm:text-sm font-medium text-slate-200 group-hover/skill:text-white">
                         {skill.name}
                       </span>
                       {skill.level && (
-                        <span className="text-[10px] font-semibold text-slate-400 bg-white/5 px-2 py-0.5 rounded-md">
+                        <span className="text-[9px] sm:text-[10px] font-semibold text-slate-400 bg-white/5 px-1.5 py-0.5 rounded-md">
                           {skill.level}
                         </span>
                       )}
@@ -109,4 +109,3 @@ export const Skills: React.FC = () => {
     </section>
   );
 };
-
