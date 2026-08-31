@@ -1,41 +1,112 @@
-# Portfólio de Cleomar da Silva
+# 🚀 Portfólio Profissional — Cleomar da Silva (NexusCleo)
 
-Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi criado para apresentar minhas habilidades, projetos e minha jornada como desenvolvedor web. O site foi desenvolvido com foco em um design moderno, responsivo e uma experiência de usuário agradável.
+Portfólio moderno, responsivo e de alta performance construído com **React 18, TypeScript, Tailwind CSS, Vite e Framer Motion**.
 
-**[➡️ Acesse a versão ao vivo aqui](https://nexuscleo.github.io/portfolio/)**
+Unindo a precisão da engenharia mecânica e liderança técnica à agilidade do desenvolvimento web Fullstack.
 
-## 🚀 Sobre o Projeto
+---
 
-Este portfólio é uma página única (Single Page Application) que destaca minhas competências como desenvolvedor em formação. Ele contém as seguintes seções:
+## 🛠️ Stack Tecnológica & Ferramentas
 
-- **Home:** Uma introdução rápida e chamativa com links de ação.
-- **Sobre:** Um resumo da minha trajetória, conhecimentos e objetivos profissionais.
-- **Projetos:** Uma galeria com os principais projetos que desenvolvi, demonstrando minhas habilidades práticas.
-- **Contato:** Um formulário para contato direto e links para minhas redes profissionais.
+- **Core & Framework:** [React 18](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- **Build Tool:** [Vite](https://vitejs.dev/) (Fast HMR & Bundling)
+- **Estilização & Design:** [Tailwind CSS](https://tailwindcss.com/) com paleta *Dark Slate / Cyber Indigo / Cyan Glow* e Glassmorphism
+- **Animações & Transições:** [Framer Motion](https://www.framer.com/motion/)
+- **Ícones:** [Lucide React](https://lucide.dev/) + SVGs dedicados
+- **Efeitos Interativos:** [Canvas Confetti](https://www.npmjs.com/package/canvas-confetti)
+- **Deploy Ready:** GitHub Pages, Vercel ou Netlify
 
-## ✨ Funcionalidades
+---
 
-- **Design Responsivo:** Totalmente adaptável para uma experiência de visualização perfeita em desktops, tablets e celulares.
-- **Navegação Suave (Smooth Scroll):** Transições suaves ao navegar pelas seções do site através do menu.
-- **Menu Mobile Interativo:** Menu de navegação funcional e acessível para dispositivos móveis.
-- **Formulário de Contato:** Interface para envio de mensagens com simulação de envio via JavaScript.
-- **Ano Dinâmico no Rodapé:** O ano no rodapé é atualizado automaticamente para refletir o ano corrente.
+## ✨ Funcionalidades Principais
 
-## 🛠️ Tecnologias Utilizadas
+1. **Hero Section de Alto Impacto:**
+   - Avatar com moldura de gradiente dinâmica e glow ambiental.
+   - Status badge animado: *"Disponível para novos projetos e contratações"*.
+   - Chamadas para ação direta (WhatsApp, GitHub e Projetos).
+   - Métricas em destaque (+28 repositórios, stack moderna, 100% código limpo).
 
-O projeto foi construído utilizando as seguintes tecnologias web:
+2. **Sobre Mim & Diferencial de Engenharia:**
+   - Narrativa profissional conectando liderança técnica, precisão com SolidWorks e usinagem CNC ao desenvolvimento web Fullstack moderno (DevClub).
+   - 4 Pilares de competência destacados.
 
-- **HTML5:** Estruturação semântica do conteúdo para melhor acessibilidade e SEO.
-- **CSS3:** Estilização moderna, utilizando Flexbox, Grid Layout, variáveis CSS e Media Queries para o design responsivo.
-- **JavaScript (ES6+):** Interatividade do usuário, manipulação do DOM para o menu mobile e a simulação do formulário.
+3. **Stack & Habilidades Interativas:**
+   - Abas dinâmicas: *Todas as Skills*, *Frontend*, *Backend*, *Engenharia & CAD*, *Metodologias*.
+   - Níveis de proficiência e badges categorizados.
 
-## 🏁 Como Executar o Projeto Localmente
+4. **Galeria de Projetos Completa & Filtrável:**
+   - Filtros instantâneos por categoria (*Engenharia & CNC*, *Aplicações Web*, *Jogos & 3D*, *Landing Pages*).
+   - Barra de pesquisa em tempo real por tecnologia ou nome do projeto.
+   - Modal de detalhes completos com solução técnica, highlights, link para demonstração ao vivo e repositório no GitHub.
 
-Você pode visualizar o projeto facilmente em sua máquina local.
+5. **Linha do Tempo / Trajetória:**
+   - Linha do tempo visual destacando os marcos de carreira e transição para desenvolvimento de software.
 
-1.  Clone este repositório:
-    https://github.com/nexuscleo/portfolio/archive/refs/heads/main.zip
+6. **Estatísticas & Presença no GitHub:**
+   - Métricas de repositórios públicos, linguagens ativas e links diretos para os principais projetos open-source.
 
-2.  Abra o arquivo `index.html` no seu navegador de preferência.
+7. **Contato em 1 Clique:**
+   - Formulário validado com notificação Toast e animação de celebração.
+   - Botão de cópia de e-mail com feedback instantâneo na área de transferência.
+   - Links diretos para WhatsApp, LinkedIn e GitHub.
 
-**Desenvolvido por Cleomar da Silva, &copy;2025 NexusCleo**
+---
+
+## 📂 Arquitetura Modular & Fácil Manutenção
+
+Os dados do portfólio foram 100% desacoplados da interface para garantir manutenção rápida:
+
+```
+src/
+├── data/
+│   ├── profile.ts      # Biografia, contatos, status e links sociais
+│   ├── projects.ts     # Catálogo de projetos (adicione novos projetos aqui em segundos)
+│   ├── skills.ts       # Habilidades e categorias
+│   └── timeline.ts     # Marcos da linha do tempo
+├── components/
+│   ├── layout/         # Navbar e Footer
+│   ├── sections/       # Hero, About, Skills, Projects, Timeline, GitHubStats, Contact
+│   └── ui/             # Badge, Button, ProjectCard, ProjectModal, Toast, Icons, SectionHeader
+├── types/              # Tipagens e interfaces TypeScript
+├── utils/              # Helpers de scroll, cópia e confetti
+├── App.tsx             # Componente raiz
+├── main.tsx            # Ponto de entrada
+└── index.css           # Tailwind e estilos globais
+```
+
+### Como Adicionar um Novo Projeto:
+Basta abrir `src/data/projects.ts` e adicionar um novo objeto seguindo a interface `Project`. O card, os filtros, a busca e a modal são gerados automaticamente!
+
+---
+
+## ⚡ Como Executar Localmente
+
+1. **Instalar as dependências:**
+   ```bash
+   npm install
+   ```
+
+2. **Iniciar o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+3. **Gerar build de produção otimizado:**
+   ```bash
+   npm run build
+   ```
+
+4. **Visualizar o preview da build:**
+   ```bash
+   npm run preview
+   ```
+
+---
+
+## 👤 Autor
+
+**Cleomar da Silva (NexusCleo)**
+- 🌐 [GitHub](https://github.com/nexuscleo)
+- 💼 [LinkedIn](https://www.linkedin.com/in/cleomar-silva-173069246/)
+- 💬 [WhatsApp](https://wa.me/555496272394)
+- ✉️ [nexuscleo@gmail.com](mailto:nexuscleo@gmail.com)

@@ -1,130 +1,45 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Primary Meta Tags -->
+    <title>Cleomar da Silva • Desenvolvedor Fullstack | Portfólio Profissional</title>
+    <meta name="title" content="Cleomar da Silva • Desenvolvedor Fullstack | Portfólio Profissional" />
+    <meta name="description" content="Portfólio profissional de Cleomar da Silva (NexusCleo) — Desenvolvedor Fullstack unindo a precisão da engenharia com tecnologias modernas como React, TypeScript, Node.js e Python." />
+    <meta name="keywords" content="Cleomar da Silva, NexusCleo, Desenvolvedor Fullstack, React, TypeScript, Node.js, Python, SolidWorks, Portfólio" />
+    <meta name="author" content="Cleomar da Silva" />
+    <meta name="theme-color" content="#0a0f1d" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio Profissional de Cleomar da Silva — Desenvolvedor Fullstack.">
-    <meta name="theme-color" content="#1cadd5">
-    <title>Cleomar da Silva — Portfólio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/icon-portfolio.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-</head>
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nexuscleo.github.io/portfolio/" />
+    <meta property="og:title" content="Cleomar da Silva • Desenvolvedor Fullstack" />
+    <meta property="og:description" content="Aplicações web robustas, interfaces modernas e ferramentas de engenharia." />
+    <meta property="og:image" content="img/foto-perfil.jpg" />
 
-<body>
-    <nav class="top-nav">
-        <div class="header-inner">
-            <a class="brand" href="#">Cleomar<span>.dev</span></a>
-            <button id="nav-toggle" class="nav-toggle" aria-label="Abrir menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Trabalhos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </div>
-    </nav>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://nexuscleo.github.io/portfolio/" />
+    <meta property="twitter:title" content="Cleomar da Silva • Desenvolvedor Fullstack" />
+    <meta property="twitter:description" content="Aplicações web robustas, interfaces modernas e ferramentas de engenharia." />
+    <meta property="twitter:image" content="img/foto-perfil.jpg" />
 
-    <main class="main-content">
-        <!-- HERO -->
-        <section id="home" class="hero">
-            <div class="avatar-wrapper">
-                <img class="perfil" src="img/foto-perfil.jpg" alt="Cleomar da Silva">
-            </div>
-            <h1>Olá, eu sou o <span>Cleomar</span></h1>
-            <p>Desenvolvedor web focado em criar soluções robustas e interfaces intuitivas. Atualmente me especializando
-                em tecnologias Fullstack.</p>
-            <div class="hero-ctas">
-                <a class="btn primary" href="#projetos">Explorar Projetos</a>
-                <a class="btn outline" href="mailto:nexuscleo@gmail.com">Enviar E-mail</a>
-            </div>
-        </section>
+    <!-- Favicon & Icons -->
+    <link rel="icon" type="image/png" href="img/icon-portfolio.png" />
+    <link rel="apple-touch-icon" href="img/icon-portfolio.png" />
 
-        <!-- SOBRE MIM -->
-        <section id="sobre" class="sobre">
-            <div class="section-header">
-                <h2>Sobre mim</h2>
-            </div>
-            <p>Com um background em liderança técnica e ferramentas de engenharia como SolidWorks, migrei para o
-                desenvolvimento web buscando o dinamismo do código. Aluno do DevClub, foco em construir aplicações que
-                resolvam problemas reais.</p>
-            <ul class="skills">
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node</li>
-                <li>Python</li>
-            </ul>
-        </section>
-
-        <!-- GALERIA DE PROJETOS -->
-        <section id="projetos" class="projetos">
-            <div class="section-header">
-                <h2>Projetos em Destaque</h2>
-            </div>
-            <div class="grid" id="projects-grid">
-                <!-- Dinâmico via JS -->
-            </div>
-        </section>
-
-        <!-- CONTATO -->
-        <section id="contato" class="contato">
-            <div class="section-header">
-                <h2>Contato</h2>
-            </div>
-            <div class="contact-grid">
-                <form id="contact-form" class="contact-form" novalidate>
-                    <div class="form-row">
-                        <label for="name">Nome</label>
-                        <input id="name" name="name" type="text" placeholder="Seu nome" required>
-                    </div>
-                    <div class="form-row">
-                        <label for="email">E-mail</label>
-                        <input id="email" name="email" type="email" placeholder="Seu melhor e-mail" required>
-                    </div>
-                    <div class="form-row">
-                        <label for="message">Mensagem</label>
-                        <textarea id="message" name="message" rows="4" placeholder="Como posso ajudar?"
-                            required></textarea>
-                    </div>
-                    <div class="form-actions">
-                        <button class="btn primary" type="submit">Enviar mensagem</button>
-                    </div>
-                    <p id="form-status" class="form-status" aria-live="polite"></p>
-                </form>
-
-                <div class="contact-links">
-                    <p>Ou pelas redes:</p>
-                    <div class="social-btns">
-                        <a href="https://www.linkedin.com/in/cleomar-silva-173069246/" target="_blank"
-                            rel="noopener noreferrer" class="btn outline">LinkedIn</a>
-
-                        <a href="https://wa.me/555496272394" target="_blank" 
-                            rel="noopener noreferrer" class="btn outline">WhatsApp</a>
-
-                        <a href="mailto:nexuscleo@gmail.com" class="btn outline">E-mail</a>
-
-                        <a href="https://github.com/nexuscleo" target="_blank" 
-                        rel="noopener noreferrer" class="btn outline">GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- RODAPÉ -->
-    <footer class="site-footer">
-        <p>&copy; <span id="year"></span> Cleomar da Silva • Desenvolvedor Fullstack</p>
-    </footer>
-</body>
-
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-background text-slate-100 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
