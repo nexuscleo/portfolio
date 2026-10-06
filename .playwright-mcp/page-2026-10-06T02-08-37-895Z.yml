@@ -1,0 +1,32 @@
+- generic [active] [ref=f7e1]:
+  - img "Logotipo animado do conversor de moedas" [ref=f7e2]
+  - main [ref=f7e3]:
+    - generic [ref=f7e4]:
+      - generic [ref=f7e5]: Valor a converter
+      - spinbutton "Valor a converter" [ref=f7e6] [cursor=pointer]
+    - generic [ref=f7e7]:
+      - generic [ref=f7e8]: Converter de
+      - combobox "Converter de" [ref=f7e9] [cursor=pointer]:
+        - option "R$ Real Brasileiro" [selected]
+        - option "€ Euro"
+        - option "¥ Yuan Chinês"
+        - option "US$ Dólar Americano"
+        - option "₿ Bitcoin"
+    - generic [ref=f7e10]:
+      - generic [ref=f7e11]: Converter para
+      - combobox "Converter para" [ref=f7e12] [cursor=pointer]:
+        - option "US$ Dólar Americano" [selected]
+        - option "R$ Real Brasileiro"
+        - option "€ Euro"
+        - option "¥ Yuan Chinês"
+        - option "₿ Bitcoin"
+    - button "Converter" [ref=f7e13] [cursor=pointer]
+    - generic [ref=f7e14]:
+      - generic [ref=f7e15]:
+        - img "Bandeira representando a moeda de origem" [ref=f7e16]
+        - paragraph [ref=f7e17]: Real Brasileiro
+        - paragraph [ref=f7e18]: R$ 0,00
+      - generic [ref=f7e20]:
+        - img "Bandeira representando a moeda de destino" [ref=f7e21]
+        - paragraph [ref=f7e22]: Dólar Americano
+        - paragraph [ref=f7e23]: US$ 0,00

@@ -1,0 +1,262 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - heading "JS Math Explorer" [level=1] [ref=f4e3]
+    - paragraph [ref=f4e4]: Uma vitrine visual das capacidades matemáticas do JavaScript
+  - generic [ref=f4e5]:
+    - generic [ref=f4e6]: Aritmética Básica
+    - generic [ref=f4e7]:
+      - generic [ref=f4e8]:
+        - generic [ref=f4e9]: Soma
+        - code [ref=f4e11]: 10 + 3
+      - generic [ref=f4e12]:
+        - generic [ref=f4e13]: "Resultado:"
+        - generic [ref=f4e14]: "13"
+    - generic [ref=f4e15]:
+      - generic [ref=f4e16]:
+        - generic [ref=f4e17]: Subtração
+        - code [ref=f4e19]: 10 - 3
+      - generic [ref=f4e20]:
+        - generic [ref=f4e21]: "Resultado:"
+        - generic [ref=f4e22]: "7"
+    - generic [ref=f4e23]:
+      - generic [ref=f4e24]:
+        - generic [ref=f4e25]: Multiplicação
+        - code [ref=f4e27]: 10 * 3
+      - generic [ref=f4e28]:
+        - generic [ref=f4e29]: "Resultado:"
+        - generic [ref=f4e30]: "30"
+    - generic [ref=f4e31]:
+      - generic [ref=f4e32]:
+        - generic [ref=f4e33]: Divisão
+        - code [ref=f4e35]: 10 / 3
+      - generic [ref=f4e36]:
+        - generic [ref=f4e37]: "Resultado:"
+        - generic [ref=f4e38]: "3.33"
+    - generic [ref=f4e39]:
+      - generic [ref=f4e40]:
+        - generic [ref=f4e41]: Exponenciação
+        - code [ref=f4e43]: 10 ** 3
+      - generic [ref=f4e44]:
+        - generic [ref=f4e45]: "Resultado:"
+        - generic [ref=f4e46]: "1000"
+    - generic [ref=f4e47]:
+      - generic [ref=f4e48]:
+        - generic [ref=f4e49]: Módulo (Resto)
+        - code [ref=f4e51]: 10 % 3
+      - generic [ref=f4e52]:
+        - generic [ref=f4e53]: "Resultado:"
+        - generic [ref=f4e54]: "1"
+    - generic [ref=f4e55]: Incremento & Decremento
+    - generic [ref=f4e56]:
+      - generic [ref=f4e57]:
+        - generic [ref=f4e58]: Incremento (c++)
+        - code [ref=f4e60]: let c = 5; c++
+      - generic [ref=f4e61]:
+        - generic [ref=f4e62]: "Resultado:"
+        - generic [ref=f4e63]: "6"
+    - generic [ref=f4e64]:
+      - generic [ref=f4e65]:
+        - generic [ref=f4e66]: Decremento (c--)
+        - code [ref=f4e68]: let c = 5; c--
+      - generic [ref=f4e69]:
+        - generic [ref=f4e70]: "Resultado:"
+        - generic [ref=f4e71]: "4"
+    - generic [ref=f4e72]: Atribuição Composta
+    - generic [ref=f4e73]:
+      - generic [ref=f4e74]:
+        - generic [ref=f4e75]: Soma Composta (d += 5)
+        - code [ref=f4e77]: let d = 10; d += 5
+      - generic [ref=f4e78]:
+        - generic [ref=f4e79]: "Resultado:"
+        - generic [ref=f4e80]: "15"
+    - generic [ref=f4e81]:
+      - generic [ref=f4e82]:
+        - generic [ref=f4e83]: Multiplicação Composta (d *= 2)
+        - code [ref=f4e85]: let d = 10; d *= 2
+      - generic [ref=f4e86]:
+        - generic [ref=f4e87]: "Resultado:"
+        - generic [ref=f4e88]: "20"
+    - generic [ref=f4e89]:
+      - generic [ref=f4e90]:
+        - generic [ref=f4e91]: Subtração Composta (d -= 3)
+        - code [ref=f4e93]: let d = 10; d -= 3
+      - generic [ref=f4e94]:
+        - generic [ref=f4e95]: "Resultado:"
+        - generic [ref=f4e96]: "7"
+    - generic [ref=f4e97]:
+      - generic [ref=f4e98]:
+        - generic [ref=f4e99]: Divisão Composta (d /= 2)
+        - code [ref=f4e101]: let d = 10; d /= 2
+      - generic [ref=f4e102]:
+        - generic [ref=f4e103]: "Resultado:"
+        - generic [ref=f4e104]: "5"
+    - generic [ref=f4e105]:
+      - generic [ref=f4e106]:
+        - generic [ref=f4e107]: Módulo Composto (d %= 3)
+        - code [ref=f4e109]: let d = 10; d %= 3
+      - generic [ref=f4e110]:
+        - generic [ref=f4e111]: "Resultado:"
+        - generic [ref=f4e112]: "1"
+    - generic [ref=f4e113]:
+      - generic [ref=f4e114]:
+        - generic [ref=f4e115]: Exponenciação Composta (d **= 2)
+        - code [ref=f4e117]: let d = 10; d **= 2
+      - generic [ref=f4e118]:
+        - generic [ref=f4e119]: "Resultado:"
+        - generic [ref=f4e120]: "100"
+    - generic [ref=f4e121]: Objeto Math
+    - generic [ref=f4e122]:
+      - generic [ref=f4e123]:
+        - generic [ref=f4e124]: Arredondar (Round)
+        - code [ref=f4e126]: Math.round(4.7)
+      - generic [ref=f4e127]:
+        - generic [ref=f4e128]: "Resultado:"
+        - generic [ref=f4e129]: "5"
+    - generic [ref=f4e130]:
+      - generic [ref=f4e131]:
+        - generic [ref=f4e132]: Piso (Floor)
+        - code [ref=f4e134]: Math.floor(4.7)
+      - generic [ref=f4e135]:
+        - generic [ref=f4e136]: "Resultado:"
+        - generic [ref=f4e137]: "4"
+    - generic [ref=f4e138]:
+      - generic [ref=f4e139]:
+        - generic [ref=f4e140]: Teto (Ceil)
+        - code [ref=f4e142]: Math.ceil(4.1)
+      - generic [ref=f4e143]:
+        - generic [ref=f4e144]: "Resultado:"
+        - generic [ref=f4e145]: "5"
+    - generic [ref=f4e146]:
+      - generic [ref=f4e147]:
+        - generic [ref=f4e148]: Raiz Quadrada
+        - code [ref=f4e150]: Math.sqrt(64)
+      - generic [ref=f4e151]:
+        - generic [ref=f4e152]: "Resultado:"
+        - generic [ref=f4e153]: "8"
+    - generic [ref=f4e154]:
+      - generic [ref=f4e155]:
+        - generic [ref=f4e156]: Valor Absoluto
+        - code [ref=f4e158]: Math.abs(-10)
+      - generic [ref=f4e159]:
+        - generic [ref=f4e160]: "Resultado:"
+        - generic [ref=f4e161]: "10"
+    - generic [ref=f4e162]:
+      - generic [ref=f4e163]:
+        - generic [ref=f4e164]: Máximo
+        - code [ref=f4e166]: Math.max(5, 10, 2)
+      - generic [ref=f4e167]:
+        - generic [ref=f4e168]: "Resultado:"
+        - generic [ref=f4e169]: "10"
+    - generic [ref=f4e170]: Trigonometria & Constantes
+    - generic [ref=f4e171]:
+      - generic [ref=f4e172]:
+        - generic [ref=f4e173]: Constante PI
+        - code [ref=f4e175]: Math.PI
+      - generic [ref=f4e176]:
+        - generic [ref=f4e177]: "Resultado:"
+        - generic [ref=f4e178]: "3.14159"
+    - generic [ref=f4e179]:
+      - generic [ref=f4e180]:
+        - generic [ref=f4e181]: Seno (90°)
+        - code [ref=f4e183]: Math.sin(90 * PI / 180)
+      - generic [ref=f4e184]:
+        - generic [ref=f4e185]: "Resultado:"
+        - generic [ref=f4e186]: "1.00"
+    - generic [ref=f4e187]: Aleatoriedade
+    - generic [ref=f4e188]:
+      - generic [ref=f4e189]:
+        - generic [ref=f4e190]: Número Aleatório
+        - code [ref=f4e192]: Math.random()
+      - generic [ref=f4e193]:
+        - generic [ref=f4e194]: "Resultado:"
+        - generic [ref=f4e195]: "0.6049"
+    - generic [ref=f4e196]:
+      - generic [ref=f4e197]:
+        - generic [ref=f4e198]: Inteiro (1 a 10)
+        - code [ref=f4e200]: Math.floor(Math.random() * 10) + 1
+      - generic [ref=f4e201]:
+        - generic [ref=f4e202]: "Resultado:"
+        - generic [ref=f4e203]: "2"
+    - generic [ref=f4e204]: operadores de Comparação
+    - generic [ref=f4e205]:
+      - generic [ref=f4e206]:
+        - generic [ref=f4e207]: Igualdade (==)
+        - code [ref=f4e209]: 5 == '5'
+      - generic [ref=f4e210]:
+        - generic [ref=f4e211]: "Resultado:"
+        - generic [ref=f4e212]: "true"
+    - generic [ref=f4e213]:
+      - generic [ref=f4e214]:
+        - generic [ref=f4e215]: Estritamente Igual (===)
+        - code [ref=f4e217]: 5 === '5'
+      - generic [ref=f4e218]:
+        - generic [ref=f4e219]: "Resultado:"
+        - generic [ref=f4e220]: "false"
+    - generic [ref=f4e221]:
+      - generic [ref=f4e222]:
+        - generic [ref=f4e223]: Diferente (!=)
+        - code [ref=f4e225]: 5 != '5'
+      - generic [ref=f4e226]:
+        - generic [ref=f4e227]: "Resultado:"
+        - generic [ref=f4e228]: "false"
+    - generic [ref=f4e229]:
+      - generic [ref=f4e230]:
+        - generic [ref=f4e231]: Estritamente Diferente (!==)
+        - code [ref=f4e233]: 5 !== '5'
+      - generic [ref=f4e234]:
+        - generic [ref=f4e235]: "Resultado:"
+        - generic [ref=f4e236]: "true"
+    - generic [ref=f4e237]:
+      - generic [ref=f4e238]:
+        - generic [ref=f4e239]: Maior que (>)
+        - code [ref=f4e241]: 5 > 3
+      - generic [ref=f4e242]:
+        - generic [ref=f4e243]: "Resultado:"
+        - generic [ref=f4e244]: "true"
+    - generic [ref=f4e245]:
+      - generic [ref=f4e246]:
+        - generic [ref=f4e247]: Menor que (<)
+        - code [ref=f4e249]: 5 < 3
+      - generic [ref=f4e250]:
+        - generic [ref=f4e251]: "Resultado:"
+        - generic [ref=f4e252]: "false"
+    - generic [ref=f4e253]:
+      - generic [ref=f4e254]:
+        - generic [ref=f4e255]: Maior ou Igual (>=)
+        - code [ref=f4e257]: 5 >= 5
+      - generic [ref=f4e258]:
+        - generic [ref=f4e259]: "Resultado:"
+        - generic [ref=f4e260]: "true"
+    - generic [ref=f4e261]:
+      - generic [ref=f4e262]:
+        - generic [ref=f4e263]: Menor ou Igual (<=)
+        - code [ref=f4e265]: 5 <= 3
+      - generic [ref=f4e266]:
+        - generic [ref=f4e267]: "Resultado:"
+        - generic [ref=f4e268]: "false"
+    - generic [ref=f4e269]: Operadores Lógicos
+    - generic [ref=f4e270]:
+      - generic [ref=f4e271]:
+        - generic [ref=f4e272]: AND (&&)
+        - code [ref=f4e274]: true && false
+      - generic [ref=f4e275]:
+        - generic [ref=f4e276]: "Resultado:"
+        - generic [ref=f4e277]: "false"
+    - generic [ref=f4e278]:
+      - generic [ref=f4e279]:
+        - generic [ref=f4e280]: OR (||)
+        - code [ref=f4e282]: true || false
+      - generic [ref=f4e283]:
+        - generic [ref=f4e284]: "Resultado:"
+        - generic [ref=f4e285]: "true"
+    - generic [ref=f4e286]:
+      - generic [ref=f4e287]:
+        - generic [ref=f4e288]: NOT (!)
+        - code [ref=f4e290]: "!true"
+      - generic [ref=f4e291]:
+        - generic [ref=f4e292]: "Resultado:"
+        - generic [ref=f4e293]: "false"
+  - contentinfo [ref=f4e294]:
+    - generic [ref=f4e295]:
+      - generic [ref=f4e296]: NexusCleo
+      - paragraph [ref=f4e297]: © 2026 | Cleomar da Silva

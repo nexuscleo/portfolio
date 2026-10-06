@@ -55,7 +55,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) 
                 src={project.image}
                 alt={project.title}
                 onError={(e) => {
-                  (e.target as HTMLImageElement).src = 'img/proj-calc-sextavado.png';
+                  (e.target as HTMLImageElement).src = 'img/proj-calc-sextavado.webp';
                 }}
                 className="w-full h-full object-cover object-top opacity-90"
               />

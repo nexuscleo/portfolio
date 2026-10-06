@@ -1,0 +1,73 @@
+- generic [active] [ref=f1e1]:
+  - generic:
+    - generic:
+      - heading "CUBO ZERO" [level=1]:
+        - generic: CUBO
+        - generic: ZERO
+      - generic: Toque 2x para iniciar
+      - generic: 0:00
+      - generic: Solucionado!
+      - generic: Melhor Tempo!
+    - generic:
+      - generic:
+        - generic: Tamanho do Cubo
+        - generic:
+          - generic: "2"
+          - generic: "3"
+          - generic: "4"
+          - generic: "5"
+      - generic:
+        - generic: Tipo de Giro
+        - generic:
+          - generic: Swift
+          - generic: Smooth
+          - generic: Bounce
+      - generic:
+        - generic: Embaralhamento
+        - generic:
+          - generic: "20"
+          - generic: "25"
+          - generic: "30"
+      - generic:
+        - generic: Angulo da Camera
+        - generic:
+          - generic: Ortographic
+          - generic: Perspective
+      - generic:
+        - generic: Esquema de Cores
+        - generic:
+          - generic: Cube
+          - generic: Erno
+          - generic: Dust
+          - generic: Camo
+          - generic: Rain
+    - generic:
+      - generic: Matiz
+      - generic: Saturacao
+      - generic: Leveza
+    - generic:
+      - generic:
+        - generic: "Cubo:"
+        - generic: 3x3x3
+      - generic:
+        - generic: "Solucoes:"
+        - generic: "-"
+      - generic:
+        - generic: "Melhor Tempo:"
+        - generic: "-"
+      - generic:
+        - generic: "Media de 5:"
+        - generic: "-"
+      - generic:
+        - generic: "Media de 12:"
+        - generic: "-"
+      - generic:
+        - generic: "Media de 25:"
+        - generic: "-"
+    - generic:
+      - button
+      - button
+      - button
+      - button
+      - button
+    - contentinfo: Desenvolvido por Cleomar da Silva, © 2025 NexusCleo.

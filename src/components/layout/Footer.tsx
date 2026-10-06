@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
                 </div>
               </div>
               <span className="text-xl font-extrabold text-white">
-                Cleomar<span className="text-primary">.dev</span>
+                nexus.<span className="text-cyan-400">DS</span>
               </span>
             </div>
             <p className="text-slate-400 text-sm max-w-md leading-relaxed">

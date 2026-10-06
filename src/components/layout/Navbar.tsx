@@ -82,7 +82,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
           </div>
           <div>
             <span className="text-base sm:text-lg font-extrabold tracking-tight text-white flex items-center gap-1 leading-none">
-              Cleomar<span className="text-primary">.dev</span>
+              nexus.<span className="text-cyan-400">DS</span>
             </span>
             <span className="text-[9px] sm:text-[10px] uppercase font-semibold tracking-wider text-slate-400 block mt-0.5">
               Fullstack Engineer

@@ -9,7 +9,7 @@ export const projectsData: Project[] = [
     category: "engineering",
     categoryLabel: "Engenharia & Ferramentas",
     technologies: ["JavaScript", "HTML5", "CSS3", "Trigonometria", "CNC"],
-    image: "img/proj-calc-sextavado.png",
+    image: "img/proj-calc-sextavado.webp",
     demoUrl: "https://nexuscleo.github.io/seno-sextavado/",
     githubUrl: "https://github.com/nexuscleo/seno-sextavado",
     featured: true,
@@ -27,7 +27,7 @@ export const projectsData: Project[] = [
     category: "web",
     categoryLabel: "Aplicações & Web Apps",
     technologies: ["TypeScript", "HTML5", "CSS3", "SPA", "Git"],
-    image: "img/proj-convite.png", // fallback image
+    image: "img/proj-enoque.webp",
     demoUrl: "https://nexuscleo.github.io/livro-de-enoque/",
     githubUrl: "https://github.com/nexuscleo/livro-de-enoque",
     featured: true,
@@ -45,7 +45,7 @@ export const projectsData: Project[] = [
     category: "interactive",
     categoryLabel: "Jogos & Interatividade",
     technologies: ["JavaScript", "CSS 3D Transforms", "HTML5", "DOM Events"],
-    image: "img/proj-tabuada.png", // fallback image
+    image: "img/proj-the-cube.webp",
     demoUrl: "https://nexuscleo.github.io/the-cube/",
     githubUrl: "https://github.com/nexuscleo/the-cube",
     featured: true,
@@ -63,7 +63,7 @@ export const projectsData: Project[] = [
     category: "landing",
     categoryLabel: "Landing Pages & UI",
     technologies: ["JavaScript", "CSS3 Flex/Grid", "HTML5 Semântico", "UI/UX"],
-    image: "img/proj-convite.png", // fallback image
+    image: "img/proj-lumiere-moda.webp",
     demoUrl: "https://nexuscleo.github.io/lumiere-moda-online/",
     githubUrl: "https://github.com/nexuscleo/lumiere-moda-online",
     featured: true,
@@ -81,7 +81,7 @@ export const projectsData: Project[] = [
     category: "engineering",
     categoryLabel: "Engenharia & Ferramentas",
     technologies: ["JavaScript", "Forms Validation", "HTML5", "CSS3"],
-    image: "img/proj-tarefas.png", // fallback image
+    image: "img/proj-controle-producao.webp",
     demoUrl: "https://nexuscleo.github.io/controle-producao/",
     githubUrl: "https://github.com/nexuscleo/controle-producao",
     featured: false,
@@ -99,7 +99,7 @@ export const projectsData: Project[] = [
     category: "web",
     categoryLabel: "Aplicações & Web Apps",
     technologies: ["JavaScript", "CSS3", "HTML5", "Local Storage", "DOM"],
-    image: "img/proj-tarefas.png",
+    image: "img/proj-todo-list.webp",
     demoUrl: "https://nexuscleo.github.io/todo-list/",
     githubUrl: "https://github.com/nexuscleo/todo-list",
     featured: true,
@@ -117,7 +117,7 @@ export const projectsData: Project[] = [
     category: "web",
     categoryLabel: "Aplicações & Web Apps",
     technologies: ["JavaScript", "CSS3 Moderno", "HTML5", "Algoritmos"],
-    image: "img/proj-tabuada.png",
+    image: "img/proj-gerador-tabuada.webp",
     demoUrl: "https://nexuscleo.github.io/gerador-tabuada/",
     githubUrl: "https://github.com/nexuscleo/gerador-tabuada",
     featured: true,
@@ -135,7 +135,7 @@ export const projectsData: Project[] = [
     category: "web",
     categoryLabel: "Aplicações & Web Apps",
     technologies: ["JavaScript", "Math Object", "CSS3", "HTML5"],
-    image: "img/proj-tabuada.png",
+    image: "img/proj-aritmetica-basica.webp",
     demoUrl: "https://nexuscleo.github.io/aritmetica-basica/",
     githubUrl: "https://github.com/nexuscleo/aritmetica-basica",
     featured: false,
@@ -153,7 +153,7 @@ export const projectsData: Project[] = [
     category: "landing",
     categoryLabel: "Landing Pages & UI",
     technologies: ["JavaScript", "CSS3 Animations", "HTML5", "Responsive"],
-    image: "img/proj-convite.png",
+    image: "img/proj-convite-alyce.webp",
     demoUrl: "https://convite-alyce.netlify.app/",
     githubUrl: "https://github.com/nexuscleo/convite-alyce",
     featured: true,
@@ -171,7 +171,7 @@ export const projectsData: Project[] = [
     category: "web",
     categoryLabel: "Aplicações & Web Apps",
     technologies: ["TypeScript", "Segurança", "CSS3", "HTML5"],
-    image: "img/proj-tarefas.png",
+    image: "img/proj-password-generator.webp",
     githubUrl: "https://github.com/nexuscleo/password-generator",
     featured: false,
     highlights: [
@@ -188,7 +188,7 @@ export const projectsData: Project[] = [
     category: "interactive",
     categoryLabel: "Jogos & Interatividade",
     technologies: ["JavaScript", "HTML5 Canvas", "Física 2D", "Game Loop"],
-    image: "img/proj-tabuada.png",
+    image: "img/proj-asteroids.webp",
     demoUrl: "https://nexuscleo.github.io/asteroids/",
     githubUrl: "https://github.com/nexuscleo/asteroids",
     featured: false,
@@ -206,7 +206,7 @@ export const projectsData: Project[] = [
     category: "web",
     categoryLabel: "Aplicações & Web Apps",
     technologies: ["JavaScript", "CSS3", "HTML5", "Formatação Monetária"],
-    image: "img/proj-calc-sextavado.png",
+    image: "img/proj-conversor-moedas.webp",
     demoUrl: "https://nexuscleo.github.io/conversor-de-moedas/",
     githubUrl: "https://github.com/nexuscleo/conversor-de-moedas",
     featured: false,
@@ -217,4 +217,3 @@ export const projectsData: Project[] = [
     ]
   }
 ];
-

@@ -28,7 +28,7 @@ export const ProjectCard = React.forwardRef<HTMLElement, ProjectCardProps>(
             src={project.image}
             alt={project.title}
             onError={(e) => {
-              (e.target as HTMLImageElement).src = 'img/proj-calc-sextavado.png';
+              (e.target as HTMLImageElement).src = 'img/proj-calc-sextavado.webp';
             }}
             className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105 opacity-85 group-hover:opacity-100"
             loading="lazy"

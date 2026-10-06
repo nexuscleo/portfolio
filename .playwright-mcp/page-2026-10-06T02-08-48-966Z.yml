@@ -1,0 +1,61 @@
+- generic [active] [ref=f8e1]:
+  - button "Mutar música" [ref=f8e2] [cursor=pointer]: 🔊
+  - main [ref=f8e3]:
+    - generic [ref=f8e4]:
+      - text: ✨
+      - generic [ref=f8e5]: ☀️
+      - heading "💜 Soltem as Lanternas! 💜" [level=1] [ref=f8e6]
+      - paragraph [ref=f8e7]: "\"Vejo a luz brilhar...\""
+      - text: ✨
+    - region "Fotos da Alyce" [ref=f8e8]:
+      - generic [ref=f8e10]:
+        - img "Foto da Alyce" [ref=f8e11]
+        - img "Foto da Alyce" [ref=f8e12]
+        - img "Foto da Alyce" [ref=f8e13]
+        - img "Foto da Alyce" [ref=f8e14]
+        - img "Foto da Alyce" [ref=f8e15]
+        - img "Foto da Alyce" [ref=f8e16]
+        - img "Foto da Alyce" [ref=f8e17]
+        - img "Foto da Alyce" [ref=f8e18]
+        - img "Foto da Alyce" [ref=f8e19]
+        - img "Foto da Alyce" [ref=f8e20]
+    - region [ref=f8e21]:
+      - text: 🦎
+      - heading "Informações da Festa" [level=2] [ref=f8e22]
+      - paragraph [ref=f8e23]: Alyce 7 anos!
+      - paragraph [ref=f8e24]:
+        - text: Cansei de ficar escondida na torre! No dia
+        - strong [ref=f8e25]: 07/06/2026
+        - text: ", vou sair para comemorar o meu aniversário com uma festa cheia de cores, luzes e, claro, muita diversão."
+      - paragraph [ref=f8e26]: Minha lista de convidados especiais já está pronta, e o seu nome está no topo.
+      - generic [ref=f8e27]:
+        - generic [ref=f8e28]:
+          - generic "Localização" [ref=f8e29]: 📍
+          - strong [ref=f8e30]: "Onde nos encontramos:"
+          - paragraph [ref=f8e31]: Associação da Boito
+        - generic [ref=f8e32]:
+          - generic "Horário" [ref=f8e33]: 🕒
+          - strong [ref=f8e34]: "A que horas a magia começa:"
+          - paragraph [ref=f8e35]: 15h
+      - paragraph [ref=f8e36]: Não perca! Afinal, o melhor dia de todos é aquele que passamos com os amigos. ✨
+    - region [ref=f8e37]:
+      - heading "Contagem Regressiva" [level=2] [ref=f8e38]
+      - timer [ref=f8e39]:
+        - generic [ref=f8e40]: 🎉 A festa começou! 🎉
+    - region [ref=f8e41]:
+      - heading "Confirme sua Presença" [level=2] [ref=f8e42]
+      - generic [ref=f8e43]:
+        - generic [ref=f8e44]:
+          - generic [ref=f8e45]: Seu Nome *
+          - textbox "Seu Nome *" [ref=f8e46]:
+            - /placeholder: Digite seu nome
+        - generic [ref=f8e47]:
+          - generic [ref=f8e48]: Deixe uma Mensagem (opcional)
+          - textbox "Deixe uma Mensagem (opcional)" [ref=f8e49]:
+            - /placeholder: Deixe uma mensagem carinhosa para a Alyce
+        - button "✨ Confirmar Presença" [ref=f8e50] [cursor=pointer]
+        - alert
+  - contentinfo [ref=f8e51]:
+    - link "Nexus" [ref=f8e52] [cursor=pointer]:
+      - /url: https://nexuscleo.github.io/portfolio/
+  - generic: ✨

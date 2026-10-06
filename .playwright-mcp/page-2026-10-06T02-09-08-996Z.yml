@@ -1,0 +1,17 @@
+- generic [ref=f10e2]:
+  - banner [ref=f10e3]:
+    - heading "Tabuada." [level=1] [ref=f10e4]
+  - main [ref=f10e5]:
+    - generic [ref=f10e6]:
+      - generic [ref=f10e7]: "Número:"
+      - generic [ref=f10e8]:
+        - spinbutton "Número:" [ref=f10e9]
+        - button "Gerar" [ref=f10e10] [cursor=pointer]
+    - list [ref=f10e14]:
+      - listitem [ref=f10e15]: Digite um número acima
+  - contentinfo [ref=f10e16]:
+    - generic [ref=f10e17]:
+      - link [ref=f10e18] [cursor=pointer]:
+        - /url: https://github.com/nexuscleo
+      - link [ref=f10e21] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/nexuscleo/

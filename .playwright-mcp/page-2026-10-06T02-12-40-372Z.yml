@@ -1,0 +1,601 @@
+- generic [ref=f16e3]:
+  - banner [ref=f16e4]:
+    - generic [ref=f16e5]:
+      - button "Ir para o início" [ref=f16e6] [cursor=pointer]:
+        - generic [ref=f16e11]:
+          - generic [ref=f16e12]:
+            - text: nexus.
+            - generic [ref=f16e13]: DS
+          - generic [ref=f16e14]: Fullstack Engineer
+      - navigation [ref=f16e15]:
+        - button "Início" [ref=f16e16] [cursor=pointer]
+        - button "Sobre" [ref=f16e18] [cursor=pointer]
+        - button "Habilidades" [ref=f16e19] [cursor=pointer]
+        - button "Projetos" [ref=f16e20] [cursor=pointer]
+        - button "Jornada" [ref=f16e21] [cursor=pointer]
+        - button "Contato" [ref=f16e22] [cursor=pointer]
+      - button "Fale Comigo" [ref=f16e24] [cursor=pointer]
+  - main [ref=f16e28]:
+    - generic [ref=f16e31]:
+      - generic [ref=f16e32]: Disponível para novos projetos e contratações
+      - img "Cleomar da Silva" [ref=f16e40]
+      - generic [ref=f16e46]:
+        - heading "Olá, eu sou o Cleomar" [level=1] [ref=f16e47]
+        - paragraph [ref=f16e48]:
+          - generic [ref=f16e52]: Desenvolvedor Fullstack • Especialista Web
+      - paragraph [ref=f16e53]: Desenvolvedor web focado em criar soluções robustas, aplicações escaláveis e interfaces altamente intuitivas. Com sólida bagagem técnica em engenharia mecânica e liderança operacional, aplico pensamento crítico e método para construir software que gera impacto real.
+      - generic [ref=f16e54]:
+        - button "Explorar Projetos" [ref=f16e55] [cursor=pointer]
+        - link "Conversar no WhatsApp" [ref=f16e60] [cursor=pointer]:
+          - /url: https://wa.me/555496272394
+        - link "GitHub" [ref=f16e65] [cursor=pointer]:
+          - /url: https://github.com/nexuscleo
+      - generic [ref=f16e71]:
+        - generic [ref=f16e72]:
+          - generic [ref=f16e73]: 28+
+          - generic [ref=f16e74]: Repositórios Públicos
+          - generic [ref=f16e75]: No GitHub com código ativo
+        - generic [ref=f16e76]:
+          - generic [ref=f16e77]: React & Node
+          - generic [ref=f16e78]: Stack Principal
+          - generic [ref=f16e79]: TypeScript, Python e UI/UX
+        - generic [ref=f16e80]:
+          - generic [ref=f16e81]: 100%
+          - generic [ref=f16e82]: Foco de Engenharia
+          - generic [ref=f16e83]: Código limpo e escalável
+    - generic [ref=f16e85]:
+      - generic [ref=f16e86]:
+        - generic [ref=f16e87]: Conheça Minha História
+        - heading "Do Chão de Fábrica ao Código de Alto Nível" [level=2] [ref=f16e89]
+        - paragraph [ref=f16e90]: Descubra como a transição da engenharia técnica para a tecnologia potencializa a criação de software confiável e inteligente.
+      - generic [ref=f16e91]:
+        - generic [ref=f16e93]:
+          - heading "Uma trajetória guiada pela resolução de problemas" [level=3] [ref=f16e94]
+          - paragraph [ref=f16e98]: Minha trajetória combina o rigor analítico da engenharia mecânica e ferramentas de precisão como SolidWorks com a paixão pelo desenvolvimento de software dinâmico e moderno.
+          - paragraph [ref=f16e99]: "Formando pelo DevClub, desenvolvo aplicações completas de ponta a ponta: do design de interfaces responsivas e acessíveis em React e TypeScript até a modelagem de regras de negócio e back-end em Node.js e Python."
+          - paragraph [ref=f16e100]: Busco constantemente os mais altos padrões de código limpo, arquitetura modular e performance, sempre focado em resolver dores reais de clientes e empresas.
+          - generic [ref=f16e101]:
+            - generic [ref=f16e102]: Código Limpo & Escalável
+            - generic [ref=f16e107]: Entrega Orientada a Resultados
+            - generic [ref=f16e112]: Mentalidade Ágil
+        - generic [ref=f16e117]:
+          - generic [ref=f16e118]:
+            - heading "Rigor e Precisão de Engenharia" [level=4] [ref=f16e122]
+            - paragraph [ref=f16e123]: Bagagem sólida em ferramentas de precisão como SolidWorks e projetos mecânicos, traduzindo atenção milimétrica a detalhes para o código e arquitetura de software.
+          - generic [ref=f16e124]:
+            - heading "Desenvolvimento Fullstack Moderno" [level=4] [ref=f16e130]
+            - paragraph [ref=f16e131]: Construção de aplicações completas com React, TypeScript, Node.js e Python, prezando por componentes modulares, tipagem robusta e performance.
+          - generic [ref=f16e132]:
+            - heading "Foco em Soluções Reais" [level=4] [ref=f16e136]
+            - paragraph [ref=f16e137]: Experiência prática em identificar gargalos e criar ferramentas que simplificam rotinas (como calculadoras industriais e sistemas de controle).
+          - generic [ref=f16e138]:
+            - heading "Evolução Contínua com DevClub" [level=4] [ref=f16e143]
+            - paragraph [ref=f16e144]: Imersão constante em metodologias ágeis, Clean Code, arquitetura de sistemas e boas práticas exigidas pelo mercado de tecnologia.
+    - generic [ref=f16e146]:
+      - generic [ref=f16e147]:
+        - generic [ref=f16e148]: Stack Tecnológica
+        - heading "Competências & Ferramentas Dominadas" [level=2] [ref=f16e150]
+        - paragraph [ref=f16e151]: Um conjunto diversificado de tecnologias web, linguagens de programação e softwares de engenharia.
+      - generic [ref=f16e152]:
+        - button "Todas as Skills" [ref=f16e153] [cursor=pointer]
+        - button "Frontend" [ref=f16e154] [cursor=pointer]
+        - button "Backend" [ref=f16e155] [cursor=pointer]
+        - button "Engenharia & CAD" [ref=f16e156] [cursor=pointer]
+        - button "Metodologias" [ref=f16e157] [cursor=pointer]
+      - generic [ref=f16e158]:
+        - generic [ref=f16e159]:
+          - generic [ref=f16e164]:
+            - heading "Frontend & Interfaces" [level=3] [ref=f16e165]
+            - paragraph [ref=f16e166]: Criação de aplicações web modernas, reativas e com experiência visual imersiva.
+          - generic [ref=f16e167]:
+            - generic [ref=f16e168]:
+              - generic [ref=f16e171]: React
+              - generic [ref=f16e172]: Avançado
+            - generic [ref=f16e173]:
+              - generic [ref=f16e176]: TypeScript
+              - generic [ref=f16e177]: Intermediário/Avançado
+            - generic [ref=f16e178]:
+              - generic [ref=f16e181]: JavaScript (ES6+)
+              - generic [ref=f16e182]: Avançado
+            - generic [ref=f16e183]:
+              - generic [ref=f16e186]: Tailwind CSS
+              - generic [ref=f16e187]: Avançado
+            - generic [ref=f16e188]:
+              - generic [ref=f16e191]: HTML5 & CSS3
+              - generic [ref=f16e192]: Especialista
+            - generic [ref=f16e193]:
+              - generic [ref=f16e196]: Design Responsivo & Mobile First
+              - generic [ref=f16e197]: Avançado
+            - generic [ref=f16e198]:
+              - generic [ref=f16e201]: Framer Motion
+              - generic [ref=f16e202]: Intermediário
+            - generic [ref=f16e203]:
+              - generic [ref=f16e206]: Acessibilidade Web (a11y)
+              - generic [ref=f16e207]: Intermediário
+        - generic [ref=f16e208]:
+          - generic [ref=f16e214]:
+            - heading "Backend & Integrações" [level=3] [ref=f16e215]
+            - paragraph [ref=f16e216]: Estruturação de servidores, APIs RESTful, lógicas de processamento e dados.
+          - generic [ref=f16e217]:
+            - generic [ref=f16e218]:
+              - generic [ref=f16e221]: Node.js
+              - generic [ref=f16e222]: Intermediário/Avançado
+            - generic [ref=f16e223]:
+              - generic [ref=f16e226]: Express
+              - generic [ref=f16e227]: Intermediário
+            - generic [ref=f16e228]:
+              - generic [ref=f16e231]: Python
+              - generic [ref=f16e232]: Intermediário
+            - generic [ref=f16e233]:
+              - generic [ref=f16e236]: C#
+              - generic [ref=f16e237]: Fundamentos
+            - generic [ref=f16e238]:
+              - generic [ref=f16e241]: APIs RESTful
+              - generic [ref=f16e242]: Intermediário/Avançado
+            - generic [ref=f16e243]:
+              - generic [ref=f16e246]: Manipulação de JSON & Assincronismo
+              - generic [ref=f16e247]: Avançado
+        - generic [ref=f16e248]:
+          - generic [ref=f16e254]:
+            - heading "Engenharia & Ferramentas" [level=3] [ref=f16e255]
+            - paragraph [ref=f16e256]: Ferramentas técnicas, controle de versão e metodologias de precisão.
+          - generic [ref=f16e257]:
+            - generic [ref=f16e258]:
+              - generic [ref=f16e261]: Git & GitHub
+              - generic [ref=f16e262]: Avançado
+            - generic [ref=f16e263]:
+              - generic [ref=f16e266]: SolidWorks 3D CAD
+              - generic [ref=f16e267]: Especialista
+            - generic [ref=f16e268]:
+              - generic [ref=f16e271]: Vite & Build Tools
+              - generic [ref=f16e272]: Avançado
+            - generic [ref=f16e273]:
+              - generic [ref=f16e276]: VS Code & Linters
+              - generic [ref=f16e277]: Avançado
+            - generic [ref=f16e278]:
+              - generic [ref=f16e281]: Usinagem CNC & Cálculos Técnicos
+              - generic [ref=f16e282]: Especialista
+            - generic [ref=f16e283]:
+              - generic [ref=f16e286]: Deploy (GitHub Pages / Vercel / Netlify)
+              - generic [ref=f16e287]: Intermediário
+        - generic [ref=f16e288]:
+          - generic [ref=f16e294]:
+            - heading "Metodologias & Diferenciais" [level=3] [ref=f16e295]
+            - paragraph [ref=f16e296]: Habilidades profissionais de liderança, método e entrega contínua.
+          - generic [ref=f16e297]:
+            - generic [ref=f16e298]:
+              - generic [ref=f16e301]: Clean Code & Refatoração
+              - generic [ref=f16e302]: Avançado
+            - generic [ref=f16e303]:
+              - generic [ref=f16e306]: Resolução Analítica de Problemas
+              - generic [ref=f16e307]: Especialista
+            - generic [ref=f16e308]:
+              - generic [ref=f16e311]: Liderança Técnica de Equipe
+              - generic [ref=f16e312]: Avançado
+            - generic [ref=f16e313]:
+              - generic [ref=f16e316]: Controle de Qualidade & Processos
+              - generic [ref=f16e317]: Avançado
+            - generic [ref=f16e318]:
+              - generic [ref=f16e321]: Comunicação & Trabalho em Equipe
+              - generic [ref=f16e322]: Avançado
+    - generic [ref=f16e324]:
+      - generic [ref=f16e325]:
+        - generic [ref=f16e326]: Galeria de Trabalhos
+        - heading "Projetos & Aplicações em Produção" [level=2] [ref=f16e328]
+        - paragraph [ref=f16e329]: Explore um catálogo diversificado de soluções práticas, desde calculadoras industriais até aplicações web modernas e interativas.
+      - generic [ref=f16e330]:
+        - generic [ref=f16e331]:
+          - button "Todos" [ref=f16e332] [cursor=pointer]
+          - button "Engenharia & CNC" [ref=f16e333] [cursor=pointer]
+          - button "Aplicações Web" [ref=f16e334] [cursor=pointer]
+          - button "Jogos & 3D" [ref=f16e335] [cursor=pointer]
+          - button "Landing Pages" [ref=f16e336] [cursor=pointer]
+        - textbox "Buscar por React, CNC, JS..." [ref=f16e341]
+      - generic [ref=f16e342]:
+        - article [ref=f16e343]:
+          - generic [ref=f16e344]:
+            - img "Calculadora de Sextavado para Usinagem CNC" [ref=f16e345]
+            - generic:
+              - generic: Engenharia & Ferramentas
+              - generic: Destaque
+          - generic [ref=f16e347]:
+            - heading "Calculadora de Sextavado para Usinagem CNC" [level=3] [ref=f16e348]
+            - paragraph [ref=f16e349]: Ferramenta de cálculo de precisão para peças sextavadas e quadradas na indústria metalmecânica.
+            - generic [ref=f16e350]:
+              - generic [ref=f16e351]: JavaScript
+              - generic [ref=f16e352]: HTML5
+              - generic [ref=f16e353]: CSS3
+              - generic [ref=f16e354]: Trigonometria
+              - generic [ref=f16e355]: "+1"
+            - generic [ref=f16e356]:
+              - button "Detalhes" [ref=f16e357] [cursor=pointer]
+              - generic [ref=f16e361]:
+                - link "Ver código do Calculadora de Sextavado para Usinagem CNC no GitHub" [ref=f16e362] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/seno-sextavado
+                - link "Live Demo" [ref=f16e366] [cursor=pointer]:
+                  - /url: https://nexuscleo.github.io/seno-sextavado/
+        - article [ref=f16e372]:
+          - generic [ref=f16e373]:
+            - img "Livro de Enoque — Leitor Digital Interativo" [ref=f16e374]
+            - generic:
+              - generic: Aplicações & Web Apps
+              - generic: Destaque
+          - generic [ref=f16e376]:
+            - heading "Livro de Enoque — Leitor Digital Interativo" [level=3] [ref=f16e377]
+            - paragraph [ref=f16e378]: Aplicação web moderna em TypeScript para leitura estruturada, pesquisa e estudo de textos históricos.
+            - generic [ref=f16e379]:
+              - generic [ref=f16e380]: TypeScript
+              - generic [ref=f16e381]: HTML5
+              - generic [ref=f16e382]: CSS3
+              - generic [ref=f16e383]: SPA
+              - generic [ref=f16e384]: "+1"
+            - generic [ref=f16e385]:
+              - button "Detalhes" [ref=f16e386] [cursor=pointer]
+              - generic [ref=f16e390]:
+                - link "Ver código do Livro de Enoque — Leitor Digital Interativo no GitHub" [ref=f16e391] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/livro-de-enoque
+                - link "Live Demo" [ref=f16e395] [cursor=pointer]:
+                  - /url: https://nexuscleo.github.io/livro-de-enoque/
+        - article [ref=f16e401]:
+          - generic [ref=f16e402]:
+            - img "The Cube — Simulador 3D de Cubo Mágico" [ref=f16e403]
+            - generic:
+              - generic: Jogos & Interatividade
+              - generic: Destaque
+          - generic [ref=f16e405]:
+            - heading "The Cube — Simulador 3D de Cubo Mágico" [level=3] [ref=f16e406]
+            - paragraph [ref=f16e407]: Aplicação 3D interativa de cubo mágico que permite rotação 360°, manipulação de faces e solução lógica.
+            - generic [ref=f16e408]:
+              - generic [ref=f16e409]: JavaScript
+              - generic [ref=f16e410]: CSS 3D Transforms
+              - generic [ref=f16e411]: HTML5
+              - generic [ref=f16e412]: DOM Events
+            - generic [ref=f16e413]:
+              - button "Detalhes" [ref=f16e414] [cursor=pointer]
+              - generic [ref=f16e418]:
+                - link "Ver código do The Cube — Simulador 3D de Cubo Mágico no GitHub" [ref=f16e419] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/the-cube
+                - link "Live Demo" [ref=f16e423] [cursor=pointer]:
+                  - /url: https://nexuscleo.github.io/the-cube/
+        - article [ref=f16e429]:
+          - generic [ref=f16e430]:
+            - img "Lumière Moda Online — E-commerce Showcase" [ref=f16e431]
+            - generic:
+              - generic: Landing Pages & UI
+              - generic: Destaque
+          - generic [ref=f16e433]:
+            - heading "Lumière Moda Online — E-commerce Showcase" [level=3] [ref=f16e434]
+            - paragraph [ref=f16e435]: Interface moderna para catálogo e loja virtual de moda, com layout responsivo de alta conversão.
+            - generic [ref=f16e436]:
+              - generic [ref=f16e437]: JavaScript
+              - generic [ref=f16e438]: CSS3 Flex/Grid
+              - generic [ref=f16e439]: HTML5 Semântico
+              - generic [ref=f16e440]: UI/UX
+            - generic [ref=f16e441]:
+              - button "Detalhes" [ref=f16e442] [cursor=pointer]
+              - generic [ref=f16e446]:
+                - link "Ver código do Lumière Moda Online — E-commerce Showcase no GitHub" [ref=f16e447] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/lumiere-moda-online
+                - link "Live Demo" [ref=f16e451] [cursor=pointer]:
+                  - /url: https://nexuscleo.github.io/lumiere-moda-online/
+        - article [ref=f16e457]:
+          - generic [ref=f16e458]:
+            - img "Controle de Produção & Turnos Industriais" [ref=f16e459]
+            - generic: Engenharia & Ferramentas
+          - generic [ref=f16e461]:
+            - heading "Controle de Produção & Turnos Industriais" [level=3] [ref=f16e462]
+            - paragraph [ref=f16e463]: Sistema de formulário e registro de produtividade diária para equipes operacionais de fábrica.
+            - generic [ref=f16e464]:
+              - generic [ref=f16e465]: JavaScript
+              - generic [ref=f16e466]: Forms Validation
+              - generic [ref=f16e467]: HTML5
+              - generic [ref=f16e468]: CSS3
+            - generic [ref=f16e469]:
+              - button "Detalhes" [ref=f16e470] [cursor=pointer]
+              - generic [ref=f16e474]:
+                - link "Ver código do Controle de Produção & Turnos Industriais no GitHub" [ref=f16e475] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/controle-producao
+                - link "Live Demo" [ref=f16e479] [cursor=pointer]:
+                  - /url: https://nexuscleo.github.io/controle-producao/
+        - article [ref=f16e485]:
+          - generic [ref=f16e486]:
+            - img "TaskFlow — Gerenciador de Tarefas" [ref=f16e487]
+            - generic:
+              - generic: Aplicações & Web Apps
+              - generic: Destaque
+          - generic [ref=f16e489]:
+            - heading "TaskFlow — Gerenciador de Tarefas" [level=3] [ref=f16e490]
+            - paragraph [ref=f16e491]: Aplicação de produtividade para organização pessoal de tarefas diárias com persistência e feedback.
+            - generic [ref=f16e492]:
+              - generic [ref=f16e493]: JavaScript
+              - generic [ref=f16e494]: CSS3
+              - generic [ref=f16e495]: HTML5
+              - generic [ref=f16e496]: Local Storage
+              - generic [ref=f16e497]: "+1"
+            - generic [ref=f16e498]:
+              - button "Detalhes" [ref=f16e499] [cursor=pointer]
+              - generic [ref=f16e503]:
+                - link "Ver código do TaskFlow — Gerenciador de Tarefas no GitHub" [ref=f16e504] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/todo-list
+                - link "Live Demo" [ref=f16e508] [cursor=pointer]:
+                  - /url: https://nexuscleo.github.io/todo-list/
+        - article [ref=f16e514]:
+          - generic [ref=f16e515]:
+            - img "Gerador Dinâmico de Tabuadas" [ref=f16e516]
+            - generic:
+              - generic: Aplicações & Web Apps
+              - generic: Destaque
+          - generic [ref=f16e518]:
+            - heading "Gerador Dinâmico de Tabuadas" [level=3] [ref=f16e519]
+            - paragraph [ref=f16e520]: Ferramenta matemática e pedagógica para cálculo instantâneo e visual de tabuadas interativas.
+            - generic [ref=f16e521]:
+              - generic [ref=f16e522]: JavaScript
+              - generic [ref=f16e523]: CSS3 Moderno
+              - generic [ref=f16e524]: HTML5
+              - generic [ref=f16e525]: Algoritmos
+            - generic [ref=f16e526]:
+              - button "Detalhes" [ref=f16e527] [cursor=pointer]
+              - generic [ref=f16e531]:
+                - link "Ver código do Gerador Dinâmico de Tabuadas no GitHub" [ref=f16e532] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/gerador-tabuada
+                - link "Live Demo" [ref=f16e536] [cursor=pointer]:
+                  - /url: https://nexuscleo.github.io/gerador-tabuada/
+        - article [ref=f16e542]:
+          - generic [ref=f16e543]:
+            - img "Aritmética & Math Engine — Guia Interativo" [ref=f16e544]
+            - generic: Aplicações & Web Apps
+          - generic [ref=f16e546]:
+            - heading "Aritmética & Math Engine — Guia Interativo" [level=3] [ref=f16e547]
+            - paragraph [ref=f16e548]: Vitrine interativa de demonstração prática dos métodos do objeto Math e lógica de programação em JS.
+            - generic [ref=f16e549]:
+              - generic [ref=f16e550]: JavaScript
+              - generic [ref=f16e551]: Math Object
+              - generic [ref=f16e552]: CSS3
+              - generic [ref=f16e553]: HTML5
+            - generic [ref=f16e554]:
+              - button "Detalhes" [ref=f16e555] [cursor=pointer]
+              - generic [ref=f16e559]:
+                - link "Ver código do Aritmética & Math Engine — Guia Interativo no GitHub" [ref=f16e560] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/aritmetica-basica
+                - link "Live Demo" [ref=f16e564] [cursor=pointer]:
+                  - /url: https://nexuscleo.github.io/aritmetica-basica/
+        - article [ref=f16e570]:
+          - generic [ref=f16e571]:
+            - img "Convite Digital Interativo — Alyce" [ref=f16e572]
+            - generic:
+              - generic: Landing Pages & UI
+              - generic: Destaque
+          - generic [ref=f16e574]:
+            - heading "Convite Digital Interativo — Alyce" [level=3] [ref=f16e575]
+            - paragraph [ref=f16e576]: Landing page temática de convite digital com confirmação de presença e contagem regressiva.
+            - generic [ref=f16e577]:
+              - generic [ref=f16e578]: JavaScript
+              - generic [ref=f16e579]: CSS3 Animations
+              - generic [ref=f16e580]: HTML5
+              - generic [ref=f16e581]: Responsive
+            - generic [ref=f16e582]:
+              - button "Detalhes" [ref=f16e583] [cursor=pointer]
+              - generic [ref=f16e587]:
+                - link "Ver código do Convite Digital Interativo — Alyce no GitHub" [ref=f16e588] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/convite-alyce
+                - link "Live Demo" [ref=f16e592] [cursor=pointer]:
+                  - /url: https://convite-alyce.netlify.app/
+        - article [ref=f16e598]:
+          - generic [ref=f16e599]:
+            - img "Password Generator — Utilitário TypeScript" [ref=f16e600]
+            - generic: Aplicações & Web Apps
+          - generic [ref=f16e602]:
+            - heading "Password Generator — Utilitário TypeScript" [level=3] [ref=f16e603]
+            - paragraph [ref=f16e604]: Gerador de senhas seguras e customizáveis com critérios de entropia e cópia em 1 clique.
+            - generic [ref=f16e605]:
+              - generic [ref=f16e606]: TypeScript
+              - generic [ref=f16e607]: Segurança
+              - generic [ref=f16e608]: CSS3
+              - generic [ref=f16e609]: HTML5
+            - generic [ref=f16e610]:
+              - button "Detalhes" [ref=f16e611] [cursor=pointer]
+              - link "Ver código do Password Generator — Utilitário TypeScript no GitHub" [ref=f16e616] [cursor=pointer]:
+                - /url: https://github.com/nexuscleo/password-generator
+        - article [ref=f16e620]:
+          - generic [ref=f16e621]:
+            - img "Asteroids Arcade — Game Canvas em JS" [ref=f16e622]
+            - generic: Jogos & Interatividade
+          - generic [ref=f16e624]:
+            - heading "Asteroids Arcade — Game Canvas em JS" [level=3] [ref=f16e625]
+            - paragraph [ref=f16e626]: Reimaginação do clássico jogo de arcade Asteroids utilizando HTML5 Canvas e física vetorial.
+            - generic [ref=f16e627]:
+              - generic [ref=f16e628]: JavaScript
+              - generic [ref=f16e629]: HTML5 Canvas
+              - generic [ref=f16e630]: Física 2D
+              - generic [ref=f16e631]: Game Loop
+            - generic [ref=f16e632]:
+              - button "Detalhes" [ref=f16e633] [cursor=pointer]
+              - generic [ref=f16e637]:
+                - link "Ver código do Asteroids Arcade — Game Canvas em JS no GitHub" [ref=f16e638] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/asteroids
+                - link "Live Demo" [ref=f16e642] [cursor=pointer]:
+                  - /url: https://nexuscleo.github.io/asteroids/
+        - article [ref=f16e648]:
+          - generic [ref=f16e649]:
+            - img "Conversor de Moedas Global" [ref=f16e650]
+            - generic: Aplicações & Web Apps
+          - generic [ref=f16e652]:
+            - heading "Conversor de Moedas Global" [level=3] [ref=f16e653]
+            - paragraph [ref=f16e654]: Calculadora de taxas de câmbio internacionais com interface responsiva e conversão rápida.
+            - generic [ref=f16e655]:
+              - generic [ref=f16e656]: JavaScript
+              - generic [ref=f16e657]: CSS3
+              - generic [ref=f16e658]: HTML5
+              - generic [ref=f16e659]: Formatação Monetária
+            - generic [ref=f16e660]:
+              - button "Detalhes" [ref=f16e661] [cursor=pointer]
+              - generic [ref=f16e665]:
+                - link "Ver código do Conversor de Moedas Global no GitHub" [ref=f16e666] [cursor=pointer]:
+                  - /url: https://github.com/nexuscleo/conversor-de-moedas
+                - link "Live Demo" [ref=f16e670] [cursor=pointer]:
+                  - /url: https://nexuscleo.github.io/conversor-de-moedas/
+    - generic [ref=f16e677]:
+      - generic [ref=f16e678]:
+        - generic [ref=f16e679]: Evolução & Marcos
+        - heading "Minha Jornada Profissional" [level=2] [ref=f16e681]
+        - paragraph [ref=f16e682]: Acompanhe a linha do tempo da minha carreira técnica, unindo engenharia e tecnologia.
+      - generic [ref=f16e685]:
+        - generic [ref=f16e692]:
+          - generic [ref=f16e693]: 2025 - Presente
+          - heading "Desenvolvedor Fullstack & Formação DevClub" [level=3] [ref=f16e697]
+          - heading "Especialização em Desenvolvimento Web Moderno" [level=4] [ref=f16e698]
+          - paragraph [ref=f16e699]: "Desenvolvimento intensivo de projetos práticos cobrindo todo o ciclo de vida do software: interfaces dinâmicas com React e TypeScript, estilização avançada, integração com back-end Node.js e Python, e banco de dados."
+          - generic [ref=f16e700]:
+            - generic [ref=f16e701]: React
+            - generic [ref=f16e702]: TypeScript
+            - generic [ref=f16e703]: Node.js
+            - generic [ref=f16e704]: Python
+            - generic [ref=f16e705]: Tailwind CSS
+            - generic [ref=f16e706]: Git
+        - generic [ref=f16e716]:
+          - generic [ref=f16e717]: 2023 - 2025
+          - heading "Projetos de Engenharia & Ferramentas Digitais" [level=3] [ref=f16e721]
+          - heading "SolidWorks 3D, Automação & Cálculos Técnicos" [level=4] [ref=f16e722]
+          - paragraph [ref=f16e723]: Criação de ferramentas digitais e calculadoras web especializadas para usinagem mecânica (como Seno-Sextavado), unindo a precisão das normas de engenharia à agilidade das aplicações web no navegador.
+          - generic [ref=f16e724]:
+            - generic [ref=f16e725]: SolidWorks
+            - generic [ref=f16e726]: JavaScript
+            - generic [ref=f16e727]: Modelagem 3D
+            - generic [ref=f16e728]: Lógica Matemática
+        - generic [ref=f16e735]:
+          - generic [ref=f16e736]: 2020 - 2023
+          - heading "Liderança Técnica Operacional & Processos" [level=3] [ref=f16e740]
+          - heading "Gestão de Chão de Fábrica e Controle de Qualidade" [level=4] [ref=f16e741]
+          - paragraph [ref=f16e742]: Coordenação de equipes, padronização de procedimentos industriais, resolução de problemas em tempo real e implantação de formulários de controle de turno para elevar a eficiência operacional.
+          - generic [ref=f16e743]:
+            - generic [ref=f16e744]: Liderança de Equipe
+            - generic [ref=f16e745]: Gestão de Processos
+            - generic [ref=f16e746]: Controle de Qualidade
+            - generic [ref=f16e747]: Metodologia
+    - generic [ref=f16e749]:
+      - generic [ref=f16e750]:
+        - generic [ref=f16e751]: Atividade Open Source
+        - heading "Presença no GitHub & Comunidade" [level=2] [ref=f16e753]
+        - paragraph [ref=f16e754]: Acompanhe meu ecossistema de projetos, repositórios de código aberto e contribuições contínuas.
+      - generic [ref=f16e755]:
+        - generic [ref=f16e756]:
+          - generic [ref=f16e757]:
+            - generic [ref=f16e763]:
+              - heading "nexuscleo" [level=3] [ref=f16e764]
+              - paragraph [ref=f16e765]: Cleomar da Silva no GitHub
+            - link "Seguir" [ref=f16e766] [cursor=pointer]:
+              - /url: https://github.com/nexuscleo
+          - paragraph [ref=f16e773]: Desenvolvimento constante com repositórios públicos em TypeScript, Python, JavaScript e CSS moderno. Acesse para ver histórico de commits, forks e projetos experimentais.
+          - generic [ref=f16e774]:
+            - generic [ref=f16e781]:
+              - generic [ref=f16e782]: 28+
+              - generic [ref=f16e783]: Repositórios Públicos
+            - generic [ref=f16e788]:
+              - generic [ref=f16e789]: 6+
+              - generic [ref=f16e790]: Linguagens Ativas
+            - generic [ref=f16e796]:
+              - generic [ref=f16e797]: 15+
+              - generic [ref=f16e798]: Projetos em Produção
+            - generic [ref=f16e804]:
+              - generic [ref=f16e805]: 100%
+              - generic [ref=f16e806]: Código Aberto & Comunidade
+        - generic [ref=f16e808]:
+          - heading "Top Repositórios" [level=4] [ref=f16e809]
+          - generic [ref=f16e813]:
+            - link "livro-de-enoque TypeScript Aplicação web completa com SPA e navegação estruturada." [ref=f16e814] [cursor=pointer]:
+              - /url: https://github.com/nexuscleo/livro-de-enoque
+              - generic [ref=f16e815]:
+                - generic [ref=f16e816]: livro-de-enoque
+                - generic [ref=f16e817]: TypeScript
+              - paragraph [ref=f16e818]: Aplicação web completa com SPA e navegação estruturada.
+            - link "seno-sextavado Engenharia / JS Calculadora de tolerâncias trigonométricas para usinagem CNC." [ref=f16e819] [cursor=pointer]:
+              - /url: https://github.com/nexuscleo/seno-sextavado
+              - generic [ref=f16e820]:
+                - generic [ref=f16e821]: seno-sextavado
+                - generic [ref=f16e822]: Engenharia / JS
+              - paragraph [ref=f16e823]: Calculadora de tolerâncias trigonométricas para usinagem CNC.
+            - link "the-cube 3D & Lógica Simulador tridimensional de Cubo Mágico no navegador." [ref=f16e824] [cursor=pointer]:
+              - /url: https://github.com/nexuscleo/the-cube
+              - generic [ref=f16e825]:
+                - generic [ref=f16e826]: the-cube
+                - generic [ref=f16e827]: 3D & Lógica
+              - paragraph [ref=f16e828]: Simulador tridimensional de Cubo Mágico no navegador.
+    - generic [ref=f16e830]:
+      - generic [ref=f16e831]:
+        - generic [ref=f16e832]: Vamos Conversar
+        - heading "Pronto para Criar Algo Incrível Juntos?" [level=2] [ref=f16e834]
+        - paragraph [ref=f16e835]: Tem um projeto em mente, uma oportunidade profissional ou deseja trocar ideias sobre engenharia e código? Entre em contato!
+      - generic [ref=f16e836]:
+        - generic [ref=f16e838]:
+          - heading "Canais Diretos" [level=3] [ref=f16e839]
+          - generic [ref=f16e844]:
+            - generic [ref=f16e850]:
+              - generic [ref=f16e851]: E-mail Profissional
+              - generic [ref=f16e852]: nexuscleo@gmail.com
+            - button "Copiar e-mail" [ref=f16e853] [cursor=pointer]
+          - link "WhatsApp Enviar mensagem direta Online" [ref=f16e857] [cursor=pointer]:
+            - /url: https://wa.me/555496272394
+            - generic [ref=f16e862]:
+              - generic [ref=f16e863]: WhatsApp
+              - text: Enviar mensagem direta
+            - generic [ref=f16e864]: Online
+          - generic [ref=f16e865]:
+            - generic [ref=f16e866]: Redes & Portfólio
+            - generic [ref=f16e867]:
+              - link "LinkedIn" [ref=f16e868] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/cleomar-silva-173069246/
+              - link "GitHub" [ref=f16e874] [cursor=pointer]:
+                - /url: https://github.com/nexuscleo
+          - generic [ref=f16e879]: Baseado no Brasil • Atuação Remota Global
+        - generic [ref=f16e885]:
+          - generic [ref=f16e886]:
+            - generic [ref=f16e887]:
+              - text: Seu Nome *
+              - 'textbox "Ex: Carlos Silva" [ref=f16e888]'
+            - generic [ref=f16e889]:
+              - text: Seu E-mail *
+              - textbox "exemplo@empresa.com" [ref=f16e890]
+          - generic [ref=f16e891]:
+            - text: Assunto
+            - 'textbox "Ex: Proposta de Projeto / Oportunidade" [ref=f16e892]'
+          - generic [ref=f16e893]:
+            - text: Mensagem *
+            - textbox "Olá Cleomar, gostaria de conversar sobre..." [ref=f16e894]
+          - button "Enviar Mensagem" [ref=f16e896] [cursor=pointer]
+  - contentinfo [ref=f16e902]:
+    - generic [ref=f16e903]:
+      - generic [ref=f16e904]:
+        - generic [ref=f16e905]:
+          - generic [ref=f16e906]: nexus.DS
+          - paragraph [ref=f16e912]: Unindo a precisão da engenharia com a inovação do desenvolvimento web moderno. Desenvolvendo aplicações web com arquitetura sólida, código limpo e foco em valor real.
+          - generic [ref=f16e913]:
+            - link "GitHub de Cleomar" [ref=f16e914] [cursor=pointer]:
+              - /url: https://github.com/nexuscleo
+            - link "LinkedIn de Cleomar" [ref=f16e918] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/cleomar-silva-173069246/
+            - link "Enviar E-mail para Cleomar" [ref=f16e923] [cursor=pointer]:
+              - /url: mailto:nexuscleo@gmail.com
+        - generic [ref=f16e927]:
+          - heading "Navegação" [level=4] [ref=f16e928]
+          - list [ref=f16e929]:
+            - listitem [ref=f16e930]:
+              - button "Início" [ref=f16e931] [cursor=pointer]
+            - listitem [ref=f16e932]:
+              - button "Sobre Mim" [ref=f16e933] [cursor=pointer]
+            - listitem [ref=f16e934]:
+              - button "Habilidades" [ref=f16e935] [cursor=pointer]
+            - listitem [ref=f16e936]:
+              - button "Projetos & Portfólio" [ref=f16e937] [cursor=pointer]
+            - listitem [ref=f16e938]:
+              - button "Trajetória" [ref=f16e939] [cursor=pointer]
+        - generic [ref=f16e940]:
+          - heading "Especialidades" [level=4] [ref=f16e941]
+          - list [ref=f16e942]:
+            - listitem [ref=f16e943]: Desenvolvimento React & TypeScript
+            - listitem [ref=f16e944]: Aplicações Web SPA & APIs Node.js
+            - listitem [ref=f16e945]: Ferramentas de Engenharia & Cálculos
+            - listitem [ref=f16e946]: Design Responsivo & Tailwind CSS
+            - listitem [ref=f16e947]: Código Limpo & Escalabilidade
+      - generic [ref=f16e948]:
+        - paragraph [ref=f16e949]: © 2026 Cleomar da Silva • Construído com em React & TypeScript.
+        - button "Voltar ao topo" [ref=f16e952] [cursor=pointer]
